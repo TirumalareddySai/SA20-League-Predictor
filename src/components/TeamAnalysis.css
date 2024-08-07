@@ -1,0 +1,141 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-analysis {
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.team-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.team {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 1rem); /* Take half width minus the gap */
+  min-width: 300px; /* Ensure a minimum width for smaller screens */
+}
+
+.team h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.player-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.player-number {
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.player-photo-team {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  margin-right: 1rem;
+}
+
+.player-name {
+  flex-grow: 1;
+  font-weight: 500;
+  color: #111827;
+}
+
+.text-red-500 {
+  color: #ef4444;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.text-red-500:hover {
+  color: #dc2626;
+}
+
+.analyze-button {
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.analyze-button:hover {
+  background: linear-gradient(to right, #2563eb, #7e22ce);
+}
+
+.analyze-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.analysis-results {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.team-strength {
+  background: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.team-strength h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.team-strength p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.chart-container {
+  background: #f3f4f6;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.chart-container h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.result {
+  margin-top: 2rem;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

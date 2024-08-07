@@ -1,0 +1,663 @@
+[
+    {
+      "Rank": 1,
+      "Player": "Heinrich Klaasen",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 190.46,
+      "Bowling MVP": null,
+      "Fielding MVP": 23,
+      "Total MVP": 224.46,
+      "Photo URL": "https://media-cdn.incrowdsports.com/43f41af7-a59f-4736-b4b8-31ac52c591d4.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 2,
+      "Player": "Ryan Rickelton",
+      "Team": "MI Cape Town",
+      "Batting MVP": 172.52,
+      "Bowling MVP": null,
+      "Fielding MVP": 5,
+      "Total MVP": 181.52,
+      "Photo URL": "https://media-cdn.incrowdsports.com/f0ec926b-f0ef-4987-af0b-98c1c248d543.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 3,
+      "Player": "Jos Buttler",
+      "Team": "Paarl Royals",
+      "Batting MVP": 126.79,
+      "Bowling MVP": null,
+      "Fielding MVP": 25,
+      "Total MVP": 158.79,
+      "Photo URL": "https://media-cdn.incrowdsports.com/f18734d8-b6a3-4a09-a909-90979b5fddfc.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 4,
+      "Player": "Marco Jansen",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 39.6,
+      "Bowling MVP": 91.37,
+      "Fielding MVP": 16,
+      "Total MVP": 156.97,
+      "Photo URL": "https://media-cdn.incrowdsports.com/a4572f68-d7df-4289-b6b8-9f2f993a1f52.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 5,
+      "Player": "Will Jacks",
+      "Team": "Pretoria Capitals",
+      "Batting MVP": 78.91,
+      "Bowling MVP": 58.25,
+      "Fielding MVP": 14,
+      "Total MVP": 155.16,
+      "Photo URL": "https://media-cdn.incrowdsports.com/36f6393a-e369-4504-8208-6da06efbbc39.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 6,
+      "Player": "Leus du Plooy",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 146.81,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 150.81,
+      "Photo URL": "https://media-cdn.incrowdsports.com/333aa4da-a392-4736-8fd2-d32bce6f970a.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 7,
+      "Player": "Tom Abell",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 116.17,
+      "Bowling MVP": null,
+      "Fielding MVP": 9,
+      "Total MVP": 135.17,
+      "Photo URL": "https://media-cdn.incrowdsports.com/c476a6b2-4ad9-4929-b1a7-c3f9106e61c6.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 8,
+      "Player": "Matthew Breetzke",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 108.11,
+      "Bowling MVP": null,
+      "Fielding MVP": 17,
+      "Total MVP": 135.11,
+      "Photo URL": "https://media-cdn.incrowdsports.com/56676871-a1f0-444a-9181-732ff00cf938.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 9,
+      "Player": "Ottneil Baartman",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 0.12,
+      "Bowling MVP": 119.15,
+      "Fielding MVP": 5,
+      "Total MVP": 133.27,
+      "Photo URL": "https://media-cdn.incrowdsports.com/e2a27f6a-e4db-4daa-bd20-cf1ad59284e7.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 10,
+      "Player": "Wiaan Mulder",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 92.82,
+      "Bowling MVP": 11.4,
+      "Fielding MVP": 14,
+      "Total MVP": 126.23,
+      "Photo URL": "https://media-cdn.incrowdsports.com/8dee8538-d40d-4481-9d04-1b9ac67e9c58.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 11,
+      "Player": "Tristan Stubbs",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 87.32,
+      "Bowling MVP": null,
+      "Fielding MVP": 18,
+      "Total MVP": 114.32,
+      "Photo URL": "https://media-cdn.incrowdsports.com/2480f32f-15a0-4b14-84be-1bb26e779c50.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 12,
+      "Player": "Keshav Maharaj",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 9.54,
+      "Bowling MVP": 79.25,
+      "Fielding MVP": 8,
+      "Total MVP": 112.79,
+      "Photo URL": "https://media-cdn.incrowdsports.com/16e384f2-1d78-4816-89f2-615070d960ff.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 13,
+      "Player": "Aiden Markram",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 61.99,
+      "Bowling MVP": 8.17,
+      "Fielding MVP": 18,
+      "Total MVP": 106.16,
+      "Photo URL": "https://media-cdn.incrowdsports.com/f2a3ea21-1be5-4736-ae1b-c664c0285c72.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 14,
+      "Player": "Jon-Jon Smuts",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 74.48,
+      "Bowling MVP": 16.34,
+      "Fielding MVP": 8,
+      "Total MVP": 105.81,
+      "Photo URL": "https://media-cdn.incrowdsports.com/e6f8c020-daa7-4b46-b0fd-6ed529aa167d.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 15,
+      "Player": "Faf du Plessis",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 85.86,
+      "Bowling MVP": null,
+      "Fielding MVP": 8,
+      "Total MVP": 104.86,
+      "Photo URL": "https://media-cdn.incrowdsports.com/0ba9bc6b-34e8-4cdb-8537-82c74de388ea.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 16,
+      "Player": "Rassie van der Dussen",
+      "Team": "MI Cape Town",
+      "Batting MVP": 94.25,
+      "Bowling MVP": null,
+      "Fielding MVP": 4,
+      "Total MVP": 102.25,
+      "Photo URL": "https://media-cdn.incrowdsports.com/9f65bfc8-8de2-4ef5-88e7-4b02ca573312.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 17,
+      "Player": "Dan Worrall",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 0.01,
+      "Bowling MVP": 83.16,
+      "Fielding MVP": 8,
+      "Total MVP": 101.17,
+      "Photo URL": "https://media-cdn.incrowdsports.com/483b84c3-f0ed-4fa4-8bb3-f9bb8d20b533.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 18,
+      "Player": "Nandre Burger",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 0.62,
+      "Bowling MVP": 80.74,
+      "Fielding MVP": 11,
+      "Total MVP": 96.37,
+      "Photo URL": "https://media-cdn.incrowdsports.com/d2c14a09-dd9c-4e7c-a207-e256b9e62d8f.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 19,
+      "Player": "Kyle Verreynne",
+      "Team": "Pretoria Capitals",
+      "Batting MVP": 92.42,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 95.42,
+      "Photo URL": "https://media-cdn.incrowdsports.com/412e9c36-f3a7-4312-a214-977f66d35646.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 20,
+      "Player": "Kieron Pollard",
+      "Team": "MI Cape Town",
+      "Batting MVP": 51.82,
+      "Bowling MVP": 22.53,
+      "Fielding MVP": 12,
+      "Total MVP": 92.35,
+      "Photo URL": "https://media-cdn.incrowdsports.com/092018fd-7dd5-446e-8709-e8314e8f2fe7.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 21,
+      "Player": "Lungi Ngidi",
+      "Team": "Paarl Royals",
+      "Batting MVP": 6.84,
+      "Bowling MVP": 69.79,
+      "Fielding MVP": 4,
+      "Total MVP": 86.62,
+      "Photo URL": "https://media-cdn.incrowdsports.com/37b18e6b-2e99-4cc7-98c1-3b9c97146556.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 22,
+      "Player": "Jordan Hermann",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 66.25,
+      "Bowling MVP": null,
+      "Fielding MVP": 10,
+      "Total MVP": 86.25,
+      "Photo URL": "https://media-cdn.incrowdsports.com/12df73a1-80ab-4ffb-9d6c-b6a47ac4386c.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 23,
+      "Player": "Sam Curran",
+      "Team": "MI Cape Town",
+      "Batting MVP": 41.69,
+      "Bowling MVP": 29.05,
+      "Fielding MVP": 10,
+      "Total MVP": 83.74,
+      "Photo URL": "https://media-cdn.incrowdsports.com/6b524933-f9ff-4a4b-83fa-79f75fe2e438.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 24,
+      "Player": "Noor Ahmad",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 0,
+      "Bowling MVP": 80.28,
+      "Fielding MVP": 0,
+      "Total MVP": 80.28,
+      "Photo URL": "https://media-cdn.incrowdsports.com/7b0e3fde-ea42-40ff-8ea8-227e478672e0.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 25,
+      "Player": "Clyde Fortuin",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 60.56,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 60.56,
+      "Photo URL": "photos/Clyde_Fortuin.jpg"
+    },
+    {
+      "Rank": 26,
+      "Player": "Evan Jones",
+      "Team": "Paarl Royals",
+      "Batting MVP": 36.19,
+      "Bowling MVP": 22.11,
+      "Fielding MVP": 0,
+      "Total MVP": 58.3,
+      "Photo URL": "https://media-cdn.incrowdsports.com/a3f4e798-0c23-402f-a90b-cc9bf3a44b55.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 27,
+      "Player": "George Linde",
+      "Team": "MI Cape Town",
+      "Batting MVP": 26.71,
+      "Bowling MVP": 22.91,
+      "Fielding MVP": 6,
+      "Total MVP": 55.62,
+      "Photo URL": "https://media-cdn.incrowdsports.com/a1e247d6-b113-48ac-9f14-862c42d972d5.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 28,
+      "Player": "Beyers Swanepoel",
+      "Team": "Pretoria Capitals",
+      "Batting MVP": 0,
+      "Bowling MVP": 53.68,
+      "Fielding MVP": 0,
+      "Total MVP": 53.68,
+      "Photo URL": "photos/Beyers_Swanepoel.jpg"
+    },
+    {
+      "Rank": 29,
+      "Player": "Corbin Bosch",
+      "Team": "Paarl Royals",
+      "Batting MVP": 2.54,
+      "Bowling MVP": 42.3,
+      "Fielding MVP": 8,
+      "Total MVP": 52.84,
+      "Photo URL": "photos/Corbin_Bosch.jpg"
+    },
+    {
+      "Rank": 30,
+      "Player": "Dewald Brevis",
+      "Team": "MI Cape Town",
+      "Batting MVP": 49.93,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 49.93,
+      "Photo URL": "https://media-cdn.incrowdsports.com/1b87d8c4-e048-4877-b6b9-907416166d5f.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 31,
+      "Player": "James Fuller",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 13.54,
+      "Bowling MVP": 30.7,
+      "Fielding MVP": 4,
+      "Total MVP": 48.24,
+      "Photo URL": "https://media-cdn.incrowdsports.com/b78e715f-53dd-4a0b-86b6-1e7466dc8db1.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 32,
+      "Player": "Jimmy Neesham",
+      "Team": "Pretoria Capitals",
+      "Batting MVP": 33.25,
+      "Bowling MVP": 4.84,
+      "Fielding MVP": 10,
+      "Total MVP": 48.08,
+      "Photo URL": "https://media-cdn.incrowdsports.com/0f2ae463-f44f-431f-920c-dbf9758ae704.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 33,
+      "Player": "Dwaine Pretorius",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 8.38,
+      "Bowling MVP": 34.79,
+      "Fielding MVP": 0,
+      "Total MVP": 43.16,
+      "Photo URL": "https://media-cdn.incrowdsports.com/bd3c7150-d5a9-44b0-8bca-9e68ebc9e870.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 34,
+      "Player": "Lizaad Williams",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 0.18,
+      "Bowling MVP": 35.2,
+      "Fielding MVP": 8,
+      "Total MVP": 43.38,
+      "Photo URL": "https://media-cdn.incrowdsports.com/d7330d21-400b-480d-ac40-1c46f4cc9910.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 35,
+      "Player": "Sisanda Magala",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 0.06,
+      "Bowling MVP": 39.21,
+      "Fielding MVP": 4,
+      "Total MVP": 43.26,
+      "Photo URL": "photos/Sisanda_Magala.jpg"
+    },
+    {
+      "Rank": 36,
+      "Player": "Jason Holder",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 13.6,
+      "Bowling MVP": 26.78,
+      "Fielding MVP": 2,
+      "Total MVP": 42.38,
+      "Photo URL": "https://media-cdn.incrowdsports.com/b78e715f-53dd-4a0b-86b6-1e7466dc8db1.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 37,
+      "Player": "Ferisco Adams",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 1.27,
+      "Bowling MVP": 33.92,
+      "Fielding MVP": 5,
+      "Total MVP": 40.19,
+      "Photo URL": "photos/Ferisco_Adams.jpg"
+    },
+    {
+      "Rank": 38,
+      "Player": "Adil Rashid",
+      "Team": "MI Cape Town",
+      "Batting MVP": 0.18,
+      "Bowling MVP": 36.31,
+      "Fielding MVP": 0,
+      "Total MVP": 36.49,
+      "Photo URL": "photos/Adil_Rashid.jpg"
+    },
+    {
+      "Rank": 39,
+      "Player": "Duan Jansen",
+      "Team": "MI Cape Town",
+      "Batting MVP": 4.6,
+      "Bowling MVP": 25.87,
+      "Fielding MVP": 6,
+      "Total MVP": 36.47,
+      "Photo URL": "https://media-cdn.incrowdsports.com/b74d5929-5995-4365-8ed9-b3b9f6630ae5.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 40,
+      "Player": "James Neesham",
+      "Team": "Pretoria Capitals",
+      "Batting MVP": 29.58,
+      "Bowling MVP": 3.5,
+      "Fielding MVP": 2,
+      "Total MVP": 35.08,
+      "Photo URL": "photos/James_Neesham.jpg"
+    },
+    {
+      "Rank": 41,
+      "Player": "Gerald Coetzee",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 2.15,
+      "Bowling MVP": 29.95,
+      "Fielding MVP": 0,
+      "Total MVP": 32.1,
+      "Photo URL": "https://media-cdn.incrowdsports.com/2da6017a-957d-4f49-9178-a1b767e0eb5d.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 42,
+      "Player": "Roelof van der Merwe",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 1.33,
+      "Bowling MVP": 26.29,
+      "Fielding MVP": 0,
+      "Total MVP": 27.62,
+      "Photo URL": "photos/Roelof_van_der_Merwe.jpg"
+    },
+    {
+      "Rank": 43,
+      "Player": "Liam Livingstone",
+      "Team": "MI Cape Town",
+      "Batting MVP": 6.12,
+      "Bowling MVP": 19.3,
+      "Fielding MVP": 0,
+      "Total MVP": 25.42,
+      "Photo URL": "https://media-cdn.incrowdsports.com/41035729-3f21-4576-bbb5-932d5cd7de01.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 44,
+      "Player": "Odean Smith",
+      "Team": "MI Cape Town",
+      "Batting MVP": 9.84,
+      "Bowling MVP": 15.33,
+      "Fielding MVP": 0,
+      "Total MVP": 25.18,
+      "Photo URL": "photos/Odean_Smith.jpg"
+    },
+    {
+      "Rank": 45,
+      "Player": "Maheesh Theekshana",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 1.47,
+      "Bowling MVP": 20.98,
+      "Fielding MVP": 0,
+      "Total MVP": 22.45,
+      "Photo URL": "photos/Maheesh_Theekshana.jpg"
+    },
+    {
+      "Rank": 46,
+      "Player": "Bjorn Fortuin",
+      "Team": "Paarl Royals",
+      "Batting MVP": 0,
+      "Bowling MVP": 20.6,
+      "Fielding MVP": 0,
+      "Total MVP": 20.6,
+      "Photo URL": "https://media-cdn.incrowdsports.com/f4ebcd41-1aa2-4df8-a8ff-3573a7454caa.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 47,
+      "Player": "James Vince",
+      "Team": "Paarl Royals",
+      "Batting MVP": 14.22,
+      "Bowling MVP": null,
+      "Fielding MVP": 6,
+      "Total MVP": 20.22,
+      "Photo URL": "photos/James_Vince.jpg"
+    },
+    {
+      "Rank": 48,
+      "Player": "Keemo Paul",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 3.01,
+      "Bowling MVP": 16.88,
+      "Fielding MVP": 0,
+      "Total MVP": 19.89,
+      "Photo URL": "https://media-cdn.incrowdsports.com/d35ce1b7-58ad-4a13-bff2-542b8b16034c.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 49,
+      "Player": "Kyle Simmonds",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 1.82,
+      "Bowling MVP": 14.74,
+      "Fielding MVP": 0,
+      "Total MVP": 16.55,
+      "Photo URL": "https://media-cdn.incrowdsports.com/9be58e7d-e99c-4f85-82ea-b23f0c5f80fb.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 50,
+      "Player": "Joshua Little",
+      "Team": "Pretoria Capitals",
+      "Batting MVP": 0,
+      "Bowling MVP": 12.86,
+      "Fielding MVP": 0,
+      "Total MVP": 12.86,
+      "Photo URL": "photos/Joshua_Little.jpg"
+    },
+    {
+      "Rank": 51,
+      "Player": "Daniel Sams",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 0.58,
+      "Bowling MVP": 10.41,
+      "Fielding MVP": 0,
+      "Total MVP": 10.99,
+      "Photo URL": "https://media-cdn.incrowdsports.com/b78e715f-53dd-4a0b-86b6-1e7466dc8db1.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 52,
+      "Player": "Alzarri Joseph",
+      "Team": "MI Cape Town",
+      "Batting MVP": 1.05,
+      "Bowling MVP": 8.86,
+      "Fielding MVP": 0,
+      "Total MVP": 9.91,
+      "Photo URL": "photos/Alzarri_Joseph.jpg"
+    },
+    {
+      "Rank": 53,
+      "Player": "Dane Vilas",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 0.83,
+      "Bowling MVP": null,
+      "Fielding MVP": 8,
+      "Total MVP": 8.83,
+      "Photo URL": "https://media-cdn.incrowdsports.com/b78e715f-53dd-4a0b-86b6-1e7466dc8db1.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 54,
+      "Player": "Phil Salt",
+      "Team": "Pretoria Capitals",
+      "Batting MVP": 7.98,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 7.98,
+      "Photo URL": "https://media-cdn.incrowdsports.com/5fd11331-ee43-49ff-8474-ac295e4a089e.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 55,
+      "Player": "Jordan Hermann",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 7.29,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 7.29,
+      "Photo URL": "https://media-cdn.incrowdsports.com/12df73a1-80ab-4ffb-9d6c-b6a47ac4386c.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 56,
+      "Player": "Neil Brand",
+      "Team": "Pretoria Capitals",
+      "Batting MVP": 5.89,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 5.89,
+      "Photo URL": "photos/Neil_Brand.jpg"
+    },
+    {
+      "Rank": 57,
+      "Player": "Heinrich Klaasen",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 5.29,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 5.29,
+      "Photo URL": "https://media-cdn.incrowdsports.com/43f41af7-a59f-4736-b4b8-31ac52c591d4.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 58,
+      "Player": "Wiaan Mulder",
+      "Team": "Durban's Super Giants",
+      "Batting MVP": 2.84,
+      "Bowling MVP": 0.6,
+      "Fielding MVP": 0,
+      "Total MVP": 3.44,
+      "Photo URL": "https://media-cdn.incrowdsports.com/8dee8538-d40d-4481-9d04-1b9ac67e9c58.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 59,
+      "Player": "Marco Jansen",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 3.33,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 3.33,
+      "Photo URL": "https://media-cdn.incrowdsports.com/a4572f68-d7df-4289-b6b8-9f2f993a1f52.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 60,
+      "Player": "Rahmanullah Gurbaz",
+      "Team": "MI Cape Town",
+      "Batting MVP": 3.32,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 3.32,
+      "Photo URL": "photos/Rahmanullah_Gurbaz.jpg"
+    },
+    {
+      "Rank": 61,
+      "Player": "Leus du Plooy",
+      "Team": "Joburg Super Kings",
+      "Batting MVP": 2.91,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 2.91,
+      "Photo URL": "https://media-cdn.incrowdsports.com/333aa4da-a392-4736-8fd2-d32bce6f970a.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 62,
+      "Player": "Adam Rossington",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 2.9,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 2.9,
+      "Photo URL": "https://media-cdn.incrowdsports.com/b681299b-60b7-4183-bb51-99fed0814c64.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 63,
+      "Player": "Matthew Breetzke",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 1.57,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 1.57,
+      "Photo URL": "photos/Matthew_Breetzke.jpg"
+    },
+    {
+      "Rank": 64,
+      "Player": "David Miller",
+      "Team": "Paarl Royals",
+      "Batting MVP": 1.11,
+      "Bowling MVP": null,
+      "Fielding MVP": 0,
+      "Total MVP": 1.11,
+      "Photo URL": "https://media-cdn.incrowdsports.com/69ff23ba-7bd3-49f4-bb6c-8f460c92cc8c.png?width=1920&quality=100&format=webp"
+    },
+    {
+      "Rank": 65,
+      "Player": "Akila Dananjaya",
+      "Team": "MI Cape Town",
+      "Batting MVP": 0,
+      "Bowling MVP": 0.89,
+      "Fielding MVP": 0,
+      "Total MVP": 0.89,
+      "Photo URL": "photos/Akila_Dananjaya.jpg"
+    },
+    {
+      "Rank": 66,
+      "Player": "Eathan Bosch",
+      "Team": "Sunrisers Eastern Cape",
+      "Batting MVP": 0,
+      "Bowling MVP": 0.67,
+      "Fielding MVP": 0,
+      "Total MVP": 0.67,
+      "Photo URL": "photos/Eathan_Bosch.jpg"
+    }
+  ]
+  

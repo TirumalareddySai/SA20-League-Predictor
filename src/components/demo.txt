@@ -1,0 +1,209 @@
+import React, { useState, useEffect } from 'react';
+import playersData from '../data/players.json';
+
+function LiveAnalysis() {
+  const [battingTeam, setBattingTeam] = useState('');
+  const [bowlingTeam, setBowlingTeam] = useState('');
+  const [battingPlayers, setBattingPlayers] = useState([]);
+  const [bowlingPlayers, setBowlingPlayers] = useState([]);
+  const [runs, setRuns] = useState(0);
+  const [wickets, setWickets] = useState(0);
+  const [target, setTarget] = useState(0);
+  const [playersOut, setPlayersOut] = useState([]);
+  const [bowlers, setBowlers] = useState([]);
+  const [winProbability, setWinProbability] = useState(50);
+
+  const teams = [...new Set(playersData.map(player => player.Team))];
+
+  useEffect(() => {
+    if (battingTeam) {
+      setBattingPlayers(playersData.filter(player => player.Team === battingTeam));
+      setPlayersOut([]);
+    }
+  }, [battingTeam]);
+
+  useEffect(() => {
+    if (bowlingTeam) {
+      setBowlingPlayers(playersData.filter(player => player.Team === bowlingTeam));
+      setBowlers([]);
+    }
+  }, [bowlingTeam]);
+
+  const handleAddPlayerOut = () => {
+    const availablePlayers = battingPlayers.filter(player => !playersOut.includes(player.Player));
+    if (availablePlayers.length > 0) {
+      setPlayersOut([...playersOut, '']);
+    }
+  };
+
+  const handlePlayerOutChange = (index, value) => {
+    const newPlayersOut = [...playersOut];
+    newPlayersOut[index] = value;
+    setPlayersOut(newPlayersOut);
+    setWickets(newPlayersOut.filter(player => player !== '').length);
+  };
+
+  const handleRemovePlayerOut = (index) => {
+    const newPlayersOut = playersOut.filter((_, i) => i !== index);
+    setPlayersOut(newPlayersOut);
+    setWickets(newPlayersOut.filter(player => player !== '').length);
+  };
+
+  const handleAddBowler = () => {
+    const availableBowlers = bowlingPlayers.filter(player => !bowlers.some(b => b.Player === player.Player));
+    if (availableBowlers.length > 0) {
+      setBowlers([...bowlers, { Player: '', overs: 0 }]);
+    }
+  };
+
+  const handleBowlerChange = (index, field, value) => {
+    const newBowlers = [...bowlers];
+    newBowlers[index][field] = value;
+    setBowlers(newBowlers);
+  };
+
+  const handleRemoveBowler = (index) => {
+    setBowlers(bowlers.filter((_, i) => i !== index));
+  };
+
+  const handleAnalyze = () => {
+    // Your analysis logic here
+    // Update winProbability based on your calculations
+    setWinProbability(Math.random() * 100);
+  };
+
+  return (
+    <div className="bg-gray-100 p-6 rounded-lg shadow-md max-w-4xl mx-auto">
+      <h2 className="text-2xl font-bold mb-4 text-center">Live Analysis</h2>
+      <div className="grid grid-cols-2 gap-4 mb-4">
+        <select 
+          className="p-2 border rounded"
+          value={battingTeam} 
+          onChange={(e) => setBattingTeam(e.target.value)}
+        >
+          <option value="">Select Batting Team</option>
+          {teams.map(team => <option key={team} value={team}>{team}</option>)}
+        </select>
+        <select 
+          className="p-2 border rounded"
+          value={bowlingTeam} 
+          onChange={(e) => setBowlingTeam(e.target.value)}
+        >
+          <option value="">Select Bowling Team</option>
+          {teams.filter(team => team !== battingTeam).map(team => <option key={team} value={team}>{team}</option>)}
+        </select>
+      </div>
+
+      <div className="grid grid-cols-3 gap-4 mb-4">
+        <div>
+          <label className="block mb-1">Runs</label>
+          <input 
+            type="number" 
+            className="w-full p-2 border rounded" 
+            value={runs} 
+            onChange={(e) => setRuns(Number(e.target.value))}
+          />
+        </div>
+        <div>
+          <label className="block mb-1">Wickets Down</label>
+          <input 
+            type="number" 
+            className="w-full p-2 border rounded" 
+            value={wickets} 
+            readOnly
+          />
+          <span className="text-sm text-gray-500">/ 10</span>
+        </div>
+        <div>
+          <label className="block mb-1">Target</label>
+          <input 
+            type="number" 
+            className="w-full p-2 border rounded" 
+            value={target} 
+            onChange={(e) => setTarget(Number(e.target.value))}
+          />
+        </div>
+      </div>
+
+      <div className="mb-4">
+        <h3 className="text-xl font-semibold mb-2">Players Out</h3>
+        {playersOut.map((player, index) => (
+          <div key={index} className="flex items-center mb-2">
+            <select
+              className="flex-grow p-2 border rounded mr-2"
+              value={player}
+              onChange={(e) => handlePlayerOutChange(index, e.target.value)}
+            >
+              <option value="">Select Player</option>
+              {battingPlayers.map(p => (
+                <option key={p.Player} value={p.Player}>{p.Player}</option>
+              ))}
+            </select>
+            <button 
+              className="p-1 bg-red-500 text-white rounded"
+              onClick={() => handleRemovePlayerOut(index)}
+            >
+              ×
+            </button>
+          </div>
+        ))}
+        <button 
+          className="mt-2 p-2 bg-blue-500 text-white rounded"
+          onClick={handleAddPlayerOut}
+        >
+          +
+        </button>
+      </div>
+
+      <div className="mb-4">
+        <h3 className="text-xl font-semibold mb-2">Bowlers</h3>
+        {bowlers.map((bowler, index) => (
+          <div key={index} className="flex items-center mb-2">
+            <select
+              className="flex-grow p-2 border rounded mr-2"
+              value={bowler.Player}
+              onChange={(e) => handleBowlerChange(index, 'Player', e.target.value)}
+            >
+              <option value="">Select Bowler</option>
+              {bowlingPlayers.map(p => (
+                <option key={p.Player} value={p.Player}>{p.Player}</option>
+              ))}
+            </select>
+            <input 
+              type="number" 
+              className="w-20 p-2 border rounded mr-2" 
+              value={bowler.overs}
+              onChange={(e) => handleBowlerChange(index, 'overs', Number(e.target.value))}
+              placeholder="Overs"
+            />
+            <button 
+              className="p-1 bg-red-500 text-white rounded"
+              onClick={() => handleRemoveBowler(index)}
+            >
+              ×
+            </button>
+          </div>
+        ))}
+        <button 
+          className="mt-2 p-2 bg-blue-500 text-white rounded"
+          onClick={handleAddBowler}
+        >
+          +
+        </button>
+      </div>
+
+      <div className="mb-4 text-center">
+        <span className="text-lg font-semibold">Probability of winning: {winProbability.toFixed(2)}%</span>
+      </div>
+
+      <button 
+        className="w-full p-2 bg-green-500 text-white rounded hover:bg-green-600"
+        onClick={handleAnalyze}
+      >
+        Analyze
+      </button>
+    </div>
+  );
+}
+
+export default LiveAnalysis;

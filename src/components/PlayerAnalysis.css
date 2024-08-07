@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap; /* Ensure elements wrap on smaller screens */
+  overflow: auto;
+}
+
+.top-performers,
+.player-selection {
+  width: 45%; /* Adjust the width as needed */
+  box-sizing: border-box; 
+  margin-left: 25px;/* Include padding and border in element's total width and height */
+}
+
+.top-performers {
+  margin-right: 20px; /* Add margin between sides */
+}
+
+.player-selection {
+  margin-left: 20px; /* Add margin between sides */
+}
+
+.top-performers h2,
+.player-selection h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.top-performers div {
+  margin-bottom: 30px;
+}
+
+.top-performers h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.top-performers ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-performers li {
+  background: #f9f9f9; /* Card background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for card effect */
+  padding: 15px; /* Adjusted padding */
+  margin-bottom: 15px; /* Space between cards */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.top-photo {
+  width: 60px; /* Adjusted size */
+  height: 60px; /* Adjusted size */
+  border-radius: 50%;
+  margin-right: 15px; /* Adjusted space between photo and text */
+  object-fit: cover;
+}
+
+.player-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 15px; /* Increased border-radius for a more rounded card */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly larger shadow for card effect */
+  padding: 25px; /* Increased padding */
+  width: 350px; /* Increased width */
+  height: 450px; /* Increased height */
+  margin-top: 20px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.player-photo {
+  width: 180px; /* Increased size */
+  height: 180px; /* Increased size */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.player-details p {
+  margin: 5px 0;
+}
+
+.player-details h3 {
+  margin-bottom: 10px;
+  font-weight: bold; /* Make heading bold */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0; /* Remove margin on smaller screens */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .top-performers,
+  .player-selection {
+    width: 100%; /* Full width on smaller screens */
+    margin: 0; /* Remove margin on smaller screens */
+    margin-bottom: 20px; /* Add space between sections */
+  }
+
+  .player-details {
+    width: 90%; /* Adjust width for smaller screens */
+    height: auto; /* Adjust height for smaller screens */
+  }
+}
