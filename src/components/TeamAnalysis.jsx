@@ -1,29 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
 import './TeamAnalysis.css';
 import PlayerDropdown from './PlayerDropdown';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import playersData from '../data/players.json';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const TeamAnalysis = () => {
-  const [players, setPlayers] = useState([]);
+  const [players] = useState(playersData);
   const [teamAPlayers, setTeamAPlayers] = useState([]);
   const [teamBPlayers, setTeamBPlayers] = useState([]);
   const [teamAStrength, setTeamAStrength] = useState({ batting: 0, bowling: 0 });
   const [teamBStrength, setTeamBStrength] = useState({ batting: 0, bowling: 0 });
   const [analysis, setAnalysis] = useState(null);
-
-  useEffect(() => {
-    axios.get('/src/data/players.json')
-      .then(response => {
-        setPlayers(response.data);
-      })
-      .catch(error => {
-        console.error('Error fetching the player data', error);
-      });
-  }, []);
 
   const handleSelectPlayer = (team, player) => {
     if (team === 'A') {
